@@ -1,0 +1,23 @@
+[
+  {
+    "name": "baseline-logistic",
+    "accuracy": 0.81,
+    "f1": 0.79,
+    "latency_ms": 4.2,
+    "notes": "Fast baseline with limited nonlinear capacity."
+  },
+  {
+    "name": "compact-tree-ensemble",
+    "accuracy": 0.87,
+    "f1": 0.86,
+    "latency_ms": 13.8,
+    "notes": "Higher predictive performance with moderate inference cost."
+  },
+  {
+    "name": "small-neural-network",
+    "accuracy": 0.89,
+    "f1": 0.88,
+    "latency_ms": 31.4,
+    "notes": "Best raw metrics but highest latency in the sample."
+  }
+]
